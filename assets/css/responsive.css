@@ -1,0 +1,35 @@
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+    .main-slider__content {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .main-slider__title {
+        font-size: 44px;
+        line-height: 60px;
+    }
+
+    .thm-btn {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0;
+        border-radius: 38px;
+        padding: 15px 30px;
+
+    }
+
+    .main-slider__text {
+        color: #A4A4A4;
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .main-slider__layer-one {
+        display: none;
+    }
+
+    .slider__pagination {
+        left: 34% !important;
+    }
+}
