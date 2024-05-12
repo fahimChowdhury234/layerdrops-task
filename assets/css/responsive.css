@@ -1,12 +1,7 @@
 @media only screen and (max-width: 600px) {
-    .main-slider__content {
-        padding: 0 10px;
-        text-align: center;
-    }
-
     .main-slider__title {
-        font-size: 44px;
-        line-height: 60px;
+        font-size: 44px !important;
+        line-height: 60px !important;
     }
 
     .thm-btn {
@@ -29,15 +24,11 @@
         display: none;
     }
 
-    .slider__pagination {
-        left: 34% !important;
-    }
-
     .about-section__title {
         padding-left: 38px;
     }
 
-    .about-section__title-text h2 {
+    .section-title__text h2 {
         font-size: 34px;
         line-height: 38px;
     }
@@ -51,11 +42,27 @@
         margin-top: 40px;
     }
 
+    .about-section__right-box img {
+        width: 100%;
+    }
+
     .about-section__right-box-wrapper {
         flex-direction: column;
         align-items: center;
     }
 
+    .welcome-section__row .col-md-6 {
+        margin-bottom: 20px;
+    }
+
+    .welcome-section__box-hover-state img {
+        width: 100%;
+    }
+
+    .about-section__right-box-love-shape {
+        top: 46px !important;
+        left: 0ex !important;
+    }
 
 }
 
@@ -65,15 +72,25 @@
     }
 }
 
-@media only screen and (min-device-width: 768px) {
+@media only screen and (max-width: 768px) {
+    .main-slider__content {
+        padding: 0 10px;
+        text-align: center;
+    }
 
     .main-slider__layer-one {
         display: none;
     }
 
     .slider__pagination {
-        left: 6% !important;
+        left: 50% !important;
+        transform: translate(-50%, 0);
+        width: fit-content !important;
     }
+
+    /* .slider__pagination {
+        left: 6% !important;
+    } */
 
     .main-slider__title {
         font-size: 70px;
@@ -83,5 +100,48 @@
     .about-section__right {
         padding-left: 0;
         margin-top: 40px;
+    }
+
+    .welcome-section .section-title__text {
+        width: 100%;
+    }
+
+    .welcome-section .section-title__text h2 {}
+
+    .welcome-section__row .col-md-6 {
+        margin-bottom: 20px;
+    }
+
+    .about-section__right-box-info__detiles h3 {
+        font-size: 30px
+    }
+
+    .about-section__right-box-info__detiles p {
+        font-size: 16px;
+    }
+
+    .about-section__right-box-info {
+
+        padding: 20px;
+        width: 100%;
+    }
+
+    .about-section__right-box-info__people {
+
+        gap: 42px;
+        width: 85%;
+    }
+
+    .main-slider .image-layer {
+        background-position: center;
+    }
+
+    .about-section__right-box-love-shape {
+        top: 36px;
+        left: -25px;
+    }
+
+    .about-section__right-box-love-shape img {
+        width: 50%;
     }
 }
