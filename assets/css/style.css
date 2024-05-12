@@ -12,7 +12,6 @@
     --tg-heading-font-family: "Quicksand", sans-serif;
     --tg-primary-color: #FA575D;
     --tg-secondary-color: #20212B;
-    --tg-black: #30353a;
     --tg-body-font-color: #898989;
     --tg-white: #FFFFFF;
     --tg-white-rgb: 255, 255, 255;
@@ -27,9 +26,20 @@
     scroll-behavior: smooth;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
     overflow-x: hidden;
 }
+
 
 body {
     font-family: var(--tg-body-font-family);
@@ -39,7 +49,9 @@ body {
     color: var(--tg-body-font-color);
     font-style: normal;
     background-color: var(--tg-white);
+    height: 100%;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 img {
@@ -148,7 +160,7 @@ h6 {
 
 .main-slider .swiper-slide {
     position: relative;
-    background-color: var(--tg-black);
+    background-color: var(--tg-secondary-color);
     height: 89.5vh;
     display: flex;
     justify-content: center;
